@@ -56,4 +56,4 @@ setInterval(function(error, data, response) {
         console.log('Tweeting/timing failed.', data);
     }
     else {tweeting()}
-}, 10000);
+}, 1800000);
