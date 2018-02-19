@@ -33,18 +33,7 @@ var quote = ["Good morning, Mayor!",
         "Otters are adorable. Maaan, you can't dispute that. Don't even try.",
         "Tee hee... I'm totally a little secret agent and stuff, bro!",
         "I wonder why it only snows during the winter... This is the kind of thing that keeps me up at nighy!",
-        "If you work hard, or have a pretty smile, you can live the dream life!",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ];
+        "If you work hard, or have a pretty smile, you can live the dream life!"];
 
 var list = quote[Math.floor(Math.random() * quote.length)]
 
