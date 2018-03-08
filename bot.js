@@ -73,6 +73,22 @@ function list() {
         "Mayor, have you done everything you can? Do your best and leave no regrets!",
         "Mayor! Just in the nick of time! I need someone to keep me company!",
         "Hello there, Mayor!",
+        "P'raps you don't be knowin' this, but good coffee be best enjoyed with a few slices o' cucumber...",
+        "Yar, tell me, which do ye like more, eggplant or cucumber?",
+        "Welcome aboard!",
+        "...Arr, we be nearin' the city! No more time fer talkin' all wistful-like about them olden days...",
+        "If I was yer father, I'd be worried about how pretty you are!",
+        "Sometimes good things find you when you're most blue. They could be standing right be-hind you!",
+        "Oh, this ain't good-bye. I will see you again. That's how it goes whene'er yer my friend.",
+        "I don't know what kinda shampoo ye be usin', but it makes ya smell like an angel!",
+        "Don't cry about dreams that don't come true today. Sometimes ya needs ta try another way!",
+        "Mayhaps I be gettin' a touch o' the sea madness... but did ye get even cuter than on the way over?",
+        "Just want ye to know: I'll always be here fer ye!",
+        "Sometimes your heart tells you when you're in love. Your tummy too. Both can sure make you sick!",
+        "Remember, smooth talkin' an' sweet smellin' ain't gonna win ye a nice lass. Ye gots to be a gentleman!",
+        "I can tell just from standin' here. Ye got lots o' charm!",
+        "When yer in love, sometimes ya miss some simple cues. When I first took me wife out, I forgot shoes! I forgot shoes!",
+        "I fell in love with a girl who changed me life. Made her me wife, and I'm still sweet on her.",
         "Is there something I can help you with today?"];
         return quote[Math.floor(Math.random() * quote.length)];
     }
@@ -96,4 +112,4 @@ setInterval(function(error, data, response) {
         logger.info('Tweeting/timing failed.', data);
     }
     else {tweeting()}},
-1800000);
+36000000);
