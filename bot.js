@@ -112,4 +112,4 @@ setInterval(function(error, data, response) {
         logger.info('Tweeting/timing failed.', data);
     }
     else {tweeting()}},
-36000000);
+7200000);
